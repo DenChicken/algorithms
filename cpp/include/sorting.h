@@ -2,12 +2,13 @@
 #define SORTING_H
 
 
-#include <iostream>
-
 namespace agls
 {
-	void test();
+    void bubble_sort(int* arr, int size);
 
+    void qsort(int* arr, int size);
+
+    void merge_sort(int* arr, int size);
     
 } // agls
 
